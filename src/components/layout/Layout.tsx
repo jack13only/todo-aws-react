@@ -1,3 +1,4 @@
+import Container from '@mui/material/Container';
 import { FC } from 'react';
 import { Outlet } from 'react-router-dom';
 import './Layout.scss';
@@ -6,9 +7,9 @@ const Layout: FC = () => {
   return (
     <>
       <div className="header"></div>
-      <main className="main">
+      <Container fixed>
         <Outlet />
-      </main>
+      </Container>
       <div className="footer"></div>
     </>
   );
