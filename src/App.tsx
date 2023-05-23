@@ -10,9 +10,7 @@ const App = () => {
     <Routes>
       <Route path={PATHS.todos} element={<Layout />}>
         <Route index element={<Todos />} />
-      </Route>
-      <Route path={PATHS.chartJs} element={<Layout />}>
-        <Route element={<ChartJs />} />
+        <Route path={PATHS.chartJs} element={<ChartJs />} />
       </Route>
     </Routes>
   );
