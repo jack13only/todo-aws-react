@@ -2,8 +2,9 @@ import Grid from '@mui/material/Unstable_Grid2';
 import Box from '@mui/material/Box';
 import React from 'react';
 import { useGetTodosQuery } from '../../app/RtkQuery';
-import { Todo, TodoType } from '../../components/todo/Todo';
+import { Todo } from '../../components';
 import { ChartJs } from '..';
+import { TodoType } from '../../components/todo/Todo';
 
 const Todos = () => {
   const { data = [] } = useGetTodosQuery('');

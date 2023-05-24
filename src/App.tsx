@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.scss';
-import { Layout } from './components/layout/Layout';
+import { Layout } from './components';
 import { PATHS } from './shared/routes';
 import { ChartJs, Todos } from './pages';
 
